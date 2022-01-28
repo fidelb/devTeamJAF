@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Insercio de registre tasca</title>
+</head>
 <body>
     <form method="post" action="insercio2.php">
         Introdueix les dades:
