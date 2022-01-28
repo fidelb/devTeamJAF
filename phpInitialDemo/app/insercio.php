@@ -13,10 +13,10 @@
         <input type="text" name="description" size="255" required>
         <br>
         Data Inici:
-        <input type="datetime" name="startDate" required>
+        <input type="date"  data-date="" data-date-format="DD MM YYYY" name="startDate" required>
         <br>
         Data Final:
-        <input type="text" name="endDate" required>
+        <input type="date" data-date="" data-date-format="DD MM YYYY" name="endDate" required>
         <br>
         Codi Usuari:
         <input type="number" name="users_id" size="11" required>
