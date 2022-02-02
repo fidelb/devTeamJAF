@@ -49,7 +49,7 @@ class tasques{
                 )") 
                 or die($this->db->error);
 
-        //$this->idTasca = idAmbQueSHaAfegit;
+        //posar a $this->idTasca = idAmbQueSHaAfegit;
     }
 
     public function modificar(){
@@ -85,6 +85,8 @@ class tasques{
 
     public function obtenirTotes(){
         return $this->db->query("select * from tasks") or die($this->db->error);
+
+        //estudiar si tornar-ho així o crear un array de tasques o una classes Tasques ??? decidir
     }
 
 
