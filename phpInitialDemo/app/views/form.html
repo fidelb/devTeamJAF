@@ -1,13 +1,15 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
-</head>
-<body>
+OPCIO 1:
+<?php
+include("/models/usuaris.class.php");
+$usuaris = new Usuaris();
+$usuaris.obtenirTots(); // farà select de la DB i ens tornara un array
+?>
+
+OPCIO 2:
+// EN TEORIA UN CONTROLADOR ENS CRIDARIA FENT ALGO AIXI
+    mostra la vista ("index", $tascas, $usuaris, $estats);
+
+
 
     <div class="bg-white px-8 rounded-md w-full">
     <div class="-mx-4 sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto">
@@ -17,9 +19,27 @@
                 <div class="w-1/4"> 
                     <label for="userName" class=""></label>
                     <select name="userName" id="userName" class="mt-1 block w-full py-2 px-3 border-b border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
-                        <option>Joan</option>
-                        <option>Fidel</option>
-                        <option>Albert</option>
+                        
+                        OPCIO1: 
+                        <?php
+                        // foreach ($usuaris as $usuariActual) {
+                        ?>
+                        
+                        <option> <?PHP echo $usuariActual['nom`];?> </option>
+
+                        <?php
+                        // }
+                        ?>
+
+                        OPCIO2 amb Tailwind: 
+                        @foreach ($USUARIS as $USUARI_ACT)
+
+                        <option>{{$USUARI_ACT->nom}}</echo>/option>
+
+                        @endforeach
+                        
+
+                       
                     </select>
                 </div>
             
@@ -65,5 +85,3 @@
     </div>
     </div>
     </div>
-</body>
-</html>
