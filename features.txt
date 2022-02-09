@@ -1,0 +1,54 @@
+tasques practica
+-------------------
+
+llistar tasques totes
+	mostrar: estat, hora ini, hora fi, usuari va crear 
+llistar tasca una especifica
+afegir tasca
+actualitzar tasca
+esborrar tasca
+
+FEATURES:
+
+- crear diagrama i la DB localment
+- feature_Config_DB_A
+	crear connexio amb la base de dades
+        // existeix fitxer: devTeamJAF\phpInitialDemo\config\db.inc.php
+- feature_DB_tasques_F
+	crear, obtenir totes, obtenir especifica, modif, esborrar tasques desde PHP
+	// pdf mysqli POO
+
+- feature_Form_tasca_afegir
+	crear formulari HTML amb les dades de l'usuari
+	enviar per POST
+	
+- feature_Controller_tasques 
+	afegir
+		rebrà la informacio del formulari 
+		desarà en la DB (cridar a desar)
+
+	modificar
+		rebrà la informacio del formulari de quina tasca vols
+		mostrara cridant a la vista
+		rebra la nova info
+		desarà (cridar a desar) 
+	esborrar
+	
+	desar
+		abans de desar 
+		comprobacio que les dates siguin dates
+
+- feature_View_tasca_afegir
+	El formulari HTML posar-lo bonic amb TailWind
+	validacio que les dates siguin dates
+
+...
+
+
+
+
+- feature_De_mysql_a_Json
+
+- feature_De_mysql_a_MongoDB
+
+
