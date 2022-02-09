@@ -1,4 +1,6 @@
 tasques practica (revisat per segon cop el 9 de febrer)
+
+farem mes commits
 -------------------------------
 
 llistar tasques totes
