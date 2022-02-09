@@ -1,7 +1,5 @@
-// afegit texte 9/2 17:03
-
-tasques practica
--------------------
+tasques practica (revisat)
+-------------------------------
 
 llistar tasques totes
 	mostrar: estat, hora ini, hora fi, usuari va crear 
