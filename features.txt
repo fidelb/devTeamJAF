@@ -1,6 +1,9 @@
 tasques practica (revisat per segon cop el 9 de febrer)
 
 farem mes commits
+
+
+canvi fet desde develop
 -------------------------------
 
 llistar tasques totes
